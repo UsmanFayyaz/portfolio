@@ -9,7 +9,7 @@
 }
 
 .description {
-    margin: 0px;;
+    margin: 0px;
 }
 
 .center{
@@ -36,16 +36,51 @@ body {
     font-size: 25px;
 }
 
+body {
+    background-color: rgb(143, 143, 143);
+    color: white;
+}
+
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 img {
     width: 400px;
-    
+    border: 1px solid rgb(53, 52, 52);
+    border-radius: 8px;
+    box-shadow: 10px 10px 12px -6px rgba(219,206,219,1);
 }
 
 .projects {
-    margin: 25px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgb(126, 123, 123);
+    position: relative;
+}
+
+.projects:hover {
+    position: relative;
+    top: 5px;
+    box-shadow: 10px 10px 12px -6px rgba(219,206,219,1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+hr {
+    border-bottom: 0px;
+    width: 90%;
+    color: black;
+}
+
+#contact {
+    width: 100%;
+}
+
+#contact {
+    font-size: 20px;
 }
