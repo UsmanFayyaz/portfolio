@@ -61,7 +61,7 @@ img {
 }
 
 #contact-info {
-    width: fit-content;
+    width: max-content;
     margin: 0 auto;
     border: 1px solid black;
     border-radius: 8px;
