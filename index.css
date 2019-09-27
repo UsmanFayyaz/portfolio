@@ -5,7 +5,7 @@
     font-size: 35px;
     padding: 25px;
     vertical-align: middle;
-    color: white;
+    color: #000000;
 }
 
 .description {
@@ -13,13 +13,16 @@
 }
 
 .center{
-    width: 80%;
+    width: 70%;
     margin: auto;
     text-align: center;
 }
 
 body {
     margin: 0px;
+    background-image: linear-gradient(to bottom right, rgb(30, 31, 31), #D59B0B);
+    font-family:  sans-serif, Verdana, Tahoma;
+    color: white;
 }
 
 #main-screen {
@@ -28,37 +31,43 @@ body {
     background-image: url("./images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
     display: flex;
 }
 
 #about, #work {
     font-size: 25px;
-}
-
-body {
-    background-color: rgb(143, 143, 143);
-    color: white;
-}
-
-a {
-    text-decoration: none;
-    color: white;
+    margin-bottom: 100px;
 }
 
 img {
     width: 400px;
     border: 1px solid rgb(53, 52, 52);
     border-radius: 8px;
-    box-shadow: 10px 10px 12px -6px rgba(219,206,219,1);
+    box-shadow: 10px 10px 12px -6px rgb(252, 252, 252);
+}
+
+.title {
+    text-decoration: underline;
 }
 
 .projects {
     border: 1px solid black;
     padding: 15px;
     border-radius: 8px;
-    background-color: rgb(126, 123, 123);
+    background-image: linear-gradient(to bottom right, #765B16, rgb(189, 148, 45));
     position: relative;
+}
+
+#contact-info {
+    width: fit-content;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, #765B16, rgb(189, 148, 45));
+    margin-bottom: 70px;
 }
 
 .projects:hover {
@@ -77,10 +86,17 @@ hr {
     color: black;
 }
 
-#contact {
-    width: 100%;
+a {
+    text-decoration: none;
+    color: white;
 }
 
 #contact {
+    width: 100%;
     font-size: 20px;
+}
+
+.fab, .fas {
+    padding : 5px;
+    font-size: 30px;
 }
